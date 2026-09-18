@@ -55,7 +55,7 @@ Setiap card produk memiliki:
 
 Produk yang ditampilkan berasal dari beberapa merek seperti:
 
-- ASUS
+- MacBook
 - Acer
 - Lenovo
 - HP
@@ -167,7 +167,8 @@ Hasil testing:
 - Footer tampil dengan baik
 
 **Screenshot:**
-
+![alt text](darilaptop.png)
+![alt text](darilaptop-1.png)
 Tambahkan screenshot hasil testing desktop di sini.
 
 ```text

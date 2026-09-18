@@ -19,8 +19,6 @@
 }
 
 
-/* ================= RESET ================= */
-
 * {
     box-sizing: border-box;
 }
@@ -53,14 +51,12 @@ a {
 }
 
 
-/* ================= MENU ================= */
 
 .menu-toggle {
     display: none;
 }
 
 
-/* ================= NAVBAR ================= */
 
 .site-nav {
     background: rgba(12, 20, 38, 0.94);
@@ -76,7 +72,7 @@ a {
 }
 
 
-/* Logo */
+
 
 .brand {
     display: flex;
@@ -120,8 +116,6 @@ a {
 }
 
 
-/* Navigation */
-
 .nav-link {
     color: #cbd5e1 !important;
 
@@ -145,14 +139,12 @@ a {
 }
 
 
-/* Mobile button */
 
 .mobile-menu-btn {
     display: none;
 }
 
 
-/* ================= HERO ================= */
 
 .hero-section {
     position: relative;
@@ -193,7 +185,6 @@ a {
 }
 
 
-/* Hero text */
 
 .eyebrow {
     display: inline-flex;
@@ -258,7 +249,6 @@ a {
 }
 
 
-/* Hero buttons */
 
 .hero-actions {
     display: flex;
@@ -353,7 +343,6 @@ a {
 }
 
 
-/* Hero image */
 
 .hero-device-wrap {
     position: relative;
@@ -440,16 +429,13 @@ a {
 }
 
 
-/* ================= SECTION ================= */
+
 
 .section-space {
     padding:
         90px
         0;
 }
-
-
-/* ================= PRODUCT ================= */
 
 .product-section {
     background: #f5f7fb;
@@ -493,7 +479,6 @@ a {
 }
 
 
-/* ================= PRODUCT CARD ================= */
 
 .product-card {
     border:
@@ -524,8 +509,6 @@ a {
 }
 
 
-/* Product image */
-
 .product-image {
     height: 205px;
 
@@ -552,8 +535,6 @@ a {
     transform: scale(1.055);
 }
 
-
-/* Product body */
 
 .product-body {
     padding: 21px;
@@ -596,7 +577,6 @@ a {
 }
 
 
-/* Specifications */
 
 .specs {
     display: flex;
@@ -625,7 +605,6 @@ a {
 }
 
 
-/* Product bottom */
 
 .product-bottom {
     display: flex;
@@ -649,8 +628,6 @@ a {
     white-space: nowrap;
 }
 
-
-/* Detail button */
 
 .btn-buy {
     border:
@@ -678,8 +655,6 @@ a {
     color: var(--primary);
 }
 
-
-/* ================= ABOUT ================= */
 
 .about-section {
     background: #ffffff;
@@ -720,9 +695,6 @@ a {
     font-size: 1rem;
 }
 
-
-/* ================= CONTACT ================= */
-
 .contact-section {
     background: #f5f7fb;
 }
@@ -751,8 +723,6 @@ a {
     margin-top: 18px;
 }
 
-
-/* Contact form */
 
 .contact-form {
     background: #ffffff;
@@ -799,8 +769,6 @@ a {
 }
 
 
-/* ================= FOOTER ================= */
-
 .site-footer {
     background: #0b1428;
 
@@ -817,10 +785,6 @@ a {
     color: #c4cede;
 }
 
-
-/* =====================================================
-   TABLET
-   ===================================================== */
 
 @media (max-width: 991.98px) {
 
@@ -858,9 +822,6 @@ a {
 }
 
 
-/* =====================================================
-   MOBILE
-   ===================================================== */
 
 @media (max-width: 767.98px) {
 
@@ -869,7 +830,6 @@ a {
     }
 
 
-    /* Mobile hamburger */
 
     .mobile-menu-btn {
         display: flex;
@@ -900,7 +860,6 @@ a {
     }
 
 
-    /* Mobile navigation */
 
     .nav-menu {
         display: none;
@@ -934,7 +893,6 @@ a {
     }
 
 
-    /* Hero */
 
     .hero-section {
         padding:
@@ -965,7 +923,6 @@ a {
     }
 
 
-    /* Hero image */
 
     .device-card {
         transform: none;
@@ -976,7 +933,6 @@ a {
     }
 
 
-    /* Section */
 
     .section-space {
         padding:
@@ -985,39 +941,27 @@ a {
     }
 
 
-    /* Product */
 
     .product-image {
         height: 220px;
     }
 
 
-    /* About */
-
     .about-box {
         padding: 28px;
     }
 
-
-    /* Contact */
 
     .contact-form {
         padding: 22px;
     }
 
 
-    /* Footer */
-
     .site-footer .container {
         align-items: flex-start !important;
     }
 
 }
-
-
-/* =====================================================
-   SMALL MOBILE
-   ===================================================== */
 
 @media (max-width: 420px) {
 
